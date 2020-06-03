@@ -150,7 +150,6 @@ function changeShape(){
 	if(shape.points.length>1){
 		count=0
 		shapeNumber++
-		//shape.addPoint(shape.points[0])
 		shapes.push(shape)
 		
 		console.log("shapes",shapes)
